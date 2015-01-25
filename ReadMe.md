@@ -38,8 +38,9 @@ The data which must be read is the
 * Rename the columns by adding a mean in front of the existing column names to reflect that the columns are now filled with mean values
 
 ##Write the tidy data to a text file
+* Use the write.table function to write the final tidy data set
 
 ##Reading instructions
-*To read the tidy data the following code may be used (https://class.coursera.org/getdata-008/forum/thread?thread_id=24)
-*data <- read.table(file.choose(), header = TRUE) #Select the filepath of the tidy data
-*View(data)
+* To read the tidy data the following code may be used (https://class.coursera.org/getdata-008/forum/thread?thread_id=24)
+* data <- read.table(file.choose(), header = TRUE) #Select the filepath of the tidy data
+* View(data)
