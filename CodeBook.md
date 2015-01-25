@@ -1,7 +1,7 @@
 ##The Raw Data
 The raw data consisted of measurements (using an accelerometer and gyroscope) of 30 subjects.
 The subjects were randomly divided into training and test sets.
-The accelerometer measurements were broken down into body and gravity acceleration in each of the directions X,Y and Z
+The accelerometer measurements (measured in standard gravity units, g) were broken down into body and gravity acceleration in each of the directions X,Y and Z
 The gyroscope reading, body acceleration and gravity acceleration were used to calculate 'jerk' readings (also in each of the directions X,Y and Z)
 The magnitude of the measures was also obtained using the Euclidean norm
 The Fast Fourier Transform was applied to some of these measures - the originals were denoted by time and f for frequency was used to denote the FFT
@@ -17,34 +17,34 @@ All columns contain data for both the training and test sets.
  
 ##TIDY DATA
 ###subjectid
-Contains an integer 1-30 to denote the identity of the subject for which the measurements were obtained
+Contains an integer (range 1 to 30) to denote the identity of the subject for which the measurements were obtained
 ###activity
 Factor variable denoting the activity for which the measurment was obtained
 Factor levels 1-WALKING 2-WALKING_UPSTAIRS 3-WALKING_DOWNSTAIRS 4-SITTING 5-STANDING 6-LAYING
 ##timebodyaccelerometermeanxdirection
-Numeric variable of the mean of the body acceleration (time domain) in the x direction
+Numeric variable of the mean of the body acceleration (time domain) in the x direction, measured in standard gravity units (g)
 ##timebodyaccelerometermeanydirection
-Numeric variable of the mean of the body acceleration (time domain) in the y direction
+Numeric variable of the mean of the body acceleration (time domain) in the y direction, measured in standard gravity units (g)
 ##timebodyaccelerometermeanzdirection
-Numeric variable of the mean of the body acceleration (time domain) in the z direction
+Numeric variable of the mean of the body acceleration (time domain) in the z direction, measured in standard gravity units (g)
 ##timebodyaccelerometerstandarddeviationxdirection
-Numeric variable of the standard deviation of the body acceleration (time domain) in the x direction
+Numeric variable of the standard deviation of the body acceleration (time domain) in the x direction, measured in standard gravity units (g)
 ##timebodyaccelerometerstandarddeviationydirection
-Numeric variable of the standard deviation of the body acceleration (time domain) in the y direction
+Numeric variable of the standard deviation of the body acceleration (time domain) in the y direction, measured in standard gravity units (g)
 ##timebodyaccelerometerstandarddeviationzdirection
-Numeric variable of the standard deviation of the body acceleration (time domain) in the z direction
+Numeric variable of the standard deviation of the body acceleration (time domain) in the z direction, measured in standard gravity units (g)
 ##timegravityaccelerometermeanxdirection
-Numeric variable of the mean of the gravity acceleration (time domain) in the x direction
+Numeric variable of the mean of the gravity acceleration (time domain) in the x direction, measured in standard gravity units (g)
 ##timegravityaccelerometermeanydirection
-Numeric variable of the mean of the gravity acceleration (time domain) in the y direction
+Numeric variable of the mean of the gravity acceleration (time domain) in the y direction, measured in standard gravity units (g)
 ##timegravityaccelerometermeanzdirection
-Numeric variable of the mean of the gravity acceleration (time domain) in the z direction
+Numeric variable of the mean of the gravity acceleration (time domain) in the z direction, measured in standard gravity units (g)
 ##timegravityaccelerometerstandarddeviationxdirection
-Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the x direction
+Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the x direction, measured in standard gravity units (g)
 ##timegravityaccelerometerstandarddeviationydirection
-Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the y direction
+Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the y direction, measured in standard gravity units (g)
 ##timegravityaccelerometerstandarddeviationzdirection
-Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the z direction
+Numeric variable of the standard deviaiton of the gravity acceleration (time domain) in the z direction, measured in standard gravity units (g)
 ##timebodyaccelerometerjerkmeanxdirection
 Numeric variable of the mean of the body acceleration jerk (time domain) in the x direction
 ##timebodyaccelerometerjerkmeanydirection
@@ -58,17 +58,17 @@ Numeric variable of the standard deevation of the body acceleration jerk (time d
 ##timebodyaccelerometerjerkstandarddeviationzdirection
 Numeric variable of the standard deevation of the body acceleration jerk (time domain) in the z direction
 ##timebodygyroscopemeanxdirection
-Numeric variable of the mean of the body gyroscope (time domain) in the x direction 
+Numeric variable of the mean of the body gyroscope (time domain) in the x direction, measured in radians/second  
 ##timebodygyroscopemeanydirection
-Numeric variable of the mean of the body gyroscope (time domain) in the y direction
+Numeric variable of the mean of the body gyroscope (time domain) in the y direction, measured in radians/second
 ##timebodygyroscopemeanzdirection
-Numeric variable of the mean of the body gyroscope (time domain) in the z direction
+Numeric variable of the mean of the body gyroscope (time domain) in the z direction, measured in radians/second
 ##timebodygyroscopestandarddeviationxdirection
-Numeric variable of the standard deviation of the body gyroscope (time domain) in the x direction
+Numeric variable of the standard deviation of the body gyroscope (time domain) in the x direction, measured in radians/second
 ##timebodygyroscopestandarddeviationydirection
-Numeric variable of the standard deviation of the body gyroscope (time domain) in the y direction
+Numeric variable of the standard deviation of the body gyroscope (time domain) in the y direction, measured in radians/second
 ##timebodygyroscopestandarddeviationzdirection
-Numeric variable of the standard deviation of the body gyroscope (time domain) in the z direction
+Numeric variable of the standard deviation of the body gyroscope (time domain) in the z direction, measured in radians/second
 ##timebodygyroscopejerkmeanxdirection
 Numeric variable of the mean of the body gyroscope jerk (time domain) in the x direction
 ##timebodygyroscopejerkmeanydirection

@@ -1,4 +1,4 @@
-##Read the data
+﻿##Read the data
 The data which must be read is the 
 training measurement data (X_train.txt), 
 the test measurement data (X_test.txt), 
@@ -41,5 +41,5 @@ Rename the columns by adding a mean in front of the existing column names to ref
 
 ##Reading instructions
 To read the tidy data the following code may be used (https://class.coursera.org/getdata-008/forum/thread?thread_id=24)
-data <- read.table(dir, header = TRUE) 
+data <- read.table(file.choose(), header = TRUE) #Select the filepath of the tidy data
 View(data)
